@@ -8,17 +8,30 @@
 import SwiftUI
 
 struct ContentView: View {
+    @ObservedObject var userSession = UserSession.shared
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Welcome Home")
+            if userSession.isLoading {
+                ProgressView()
+            } else {
+                if userSession.user != nil {
+                    RootView()
+                } else {
+                    NavigationStack {
+                        OnboardingView()
+                    }
+                }
+            }
         }
-        .padding()
     }
 }
 
 #Preview {
     ContentView()
 }
+
+
+// TODO:
+// Autofocus first OTP
+// Get Setup Profile if auth exists but user does not (Invalid Creds Error)
+// Profile Image?

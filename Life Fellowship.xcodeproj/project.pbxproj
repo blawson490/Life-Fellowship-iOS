@@ -11,6 +11,22 @@
 		150734D32C38801D002E7453 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150734D22C38801D002E7453 /* ContentView.swift */; };
 		150734D52C38801F002E7453 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150734D42C38801F002E7453 /* Assets.xcassets */; };
 		150734D82C38801F002E7453 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 150734D72C38801F002E7453 /* Preview Assets.xcassets */; };
+		150734E02C3883E8002E7453 /* Appwrite in Frameworks */ = {isa = PBXBuildFile; productRef = 150734DF2C3883E8002E7453 /* Appwrite */; };
+		150734E42C388415002E7453 /* Appwrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150734E32C388415002E7453 /* Appwrite.swift */; };
+		150734E72C3884FC002E7453 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150734E62C3884FC002E7453 /* Constants.swift */; };
+		150734E92C3885B6002E7453 /* UserSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150734E82C3885B6002E7453 /* UserSession.swift */; };
+		150734EC2C3885E9002E7453 /* UserAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150734EB2C3885E9002E7453 /* UserAccount.swift */; };
+		150734EE2C38861B002E7453 /* Database Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150734ED2C38861B002E7453 /* Database Service.swift */; };
+		150734F22C388C7E002E7453 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150734F12C388C7E002E7453 /* OnboardingView.swift */; };
+		150734F72C389D9A002E7453 /* OtpModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150734F62C389D9A002E7453 /* OtpModifier.swift */; };
+		150734FA2C389DD3002E7453 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150734F92C389DD3002E7453 /* AuthViewModel.swift */; };
+		150734FC2C389E21002E7453 /* PhoneNumberView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150734FB2C389E21002E7453 /* PhoneNumberView.swift */; };
+		150735002C389E6C002E7453 /* OTPVerificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150734FF2C389E6C002E7453 /* OTPVerificationView.swift */; };
+		150735022C389EFE002E7453 /* SignUpWithEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150735012C389EFE002E7453 /* SignUpWithEmail.swift */; };
+		150735042C389F2D002E7453 /* SignInWithEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150735032C389F2D002E7453 /* SignInWithEmail.swift */; };
+		150735072C389F79002E7453 /* ProfileSetup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150735062C389F79002E7453 /* ProfileSetup.swift */; };
+		150735092C389FA0002E7453 /* BindingLimit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 150735082C389FA0002E7453 /* BindingLimit.swift */; };
+		1507350C2C389FF3002E7453 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1507350B2C389FF3002E7453 /* RootView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +35,21 @@
 		150734D22C38801D002E7453 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		150734D42C38801F002E7453 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		150734D72C38801F002E7453 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		150734E32C388415002E7453 /* Appwrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appwrite.swift; sourceTree = "<group>"; };
+		150734E62C3884FC002E7453 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		150734E82C3885B6002E7453 /* UserSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSession.swift; sourceTree = "<group>"; };
+		150734EB2C3885E9002E7453 /* UserAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAccount.swift; sourceTree = "<group>"; };
+		150734ED2C38861B002E7453 /* Database Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Database Service.swift"; sourceTree = "<group>"; };
+		150734F12C388C7E002E7453 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		150734F62C389D9A002E7453 /* OtpModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpModifier.swift; sourceTree = "<group>"; };
+		150734F92C389DD3002E7453 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		150734FB2C389E21002E7453 /* PhoneNumberView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneNumberView.swift; sourceTree = "<group>"; };
+		150734FF2C389E6C002E7453 /* OTPVerificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OTPVerificationView.swift; sourceTree = "<group>"; };
+		150735012C389EFE002E7453 /* SignUpWithEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpWithEmail.swift; sourceTree = "<group>"; };
+		150735032C389F2D002E7453 /* SignInWithEmail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithEmail.swift; sourceTree = "<group>"; };
+		150735062C389F79002E7453 /* ProfileSetup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileSetup.swift; sourceTree = "<group>"; };
+		150735082C389FA0002E7453 /* BindingLimit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingLimit.swift; sourceTree = "<group>"; };
+		1507350B2C389FF3002E7453 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150734E02C3883E8002E7453 /* Appwrite in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +83,10 @@
 		150734CF2C38801D002E7453 /* Life Fellowship */ = {
 			isa = PBXGroup;
 			children = (
+				150734EF2C388C5B002E7453 /* Views */,
+				150734EA2C3885C8002E7453 /* Models */,
+				150734E52C3884EE002E7453 /* Utilities */,
+				150734E22C3883FF002E7453 /* Services */,
 				150734D02C38801D002E7453 /* Life_FellowshipApp.swift */,
 				150734D22C38801D002E7453 /* ContentView.swift */,
 				150734D42C38801F002E7453 /* Assets.xcassets */,
@@ -65,6 +101,121 @@
 				150734D72C38801F002E7453 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		150734E22C3883FF002E7453 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				150734E32C388415002E7453 /* Appwrite.swift */,
+				150734E82C3885B6002E7453 /* UserSession.swift */,
+				150734ED2C38861B002E7453 /* Database Service.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		150734E52C3884EE002E7453 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				150734E62C3884FC002E7453 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		150734EA2C3885C8002E7453 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				150734EB2C3885E9002E7453 /* UserAccount.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		150734EF2C388C5B002E7453 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1507350A2C389FE0002E7453 /* Root */,
+				150734F32C389D27002E7453 /* Auth */,
+				150734F02C388C61002E7453 /* Onboarding */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		150734F02C388C61002E7453 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				150734F12C388C7E002E7453 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		150734F32C389D27002E7453 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				150734F82C389DC1002E7453 /* ViewModel */,
+				150734F52C389D85002E7453 /* Utilities */,
+				150734F42C389D4F002E7453 /* Views */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		150734F42C389D4F002E7453 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				150735052C389F5F002E7453 /* Profile */,
+				150734FE2C389E5E002E7453 /* Email */,
+				150734FD2C389E56002E7453 /* Phone */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		150734F52C389D85002E7453 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				150734F62C389D9A002E7453 /* OtpModifier.swift */,
+				150735082C389FA0002E7453 /* BindingLimit.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		150734F82C389DC1002E7453 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				150734F92C389DD3002E7453 /* AuthViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		150734FD2C389E56002E7453 /* Phone */ = {
+			isa = PBXGroup;
+			children = (
+				150734FB2C389E21002E7453 /* PhoneNumberView.swift */,
+				150734FF2C389E6C002E7453 /* OTPVerificationView.swift */,
+			);
+			path = Phone;
+			sourceTree = "<group>";
+		};
+		150734FE2C389E5E002E7453 /* Email */ = {
+			isa = PBXGroup;
+			children = (
+				150735012C389EFE002E7453 /* SignUpWithEmail.swift */,
+				150735032C389F2D002E7453 /* SignInWithEmail.swift */,
+			);
+			path = Email;
+			sourceTree = "<group>";
+		};
+		150735052C389F5F002E7453 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				150735062C389F79002E7453 /* ProfileSetup.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		1507350A2C389FE0002E7453 /* Root */ = {
+			isa = PBXGroup;
+			children = (
+				1507350B2C389FF3002E7453 /* RootView.swift */,
+			);
+			path = Root;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +234,9 @@
 			dependencies = (
 			);
 			name = "Life Fellowship";
+			packageProductDependencies = (
+				150734DF2C3883E8002E7453 /* Appwrite */,
+			);
 			productName = "Life Fellowship";
 			productReference = 150734CD2C38801D002E7453 /* Life Fellowship.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 150734C42C38801D002E7453;
+			packageReferences = (
+				150734DE2C3883E8002E7453 /* XCRemoteSwiftPackageReference "sdk-for-apple" */,
+			);
 			productRefGroup = 150734CE2C38801D002E7453 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +294,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				150734FA2C389DD3002E7453 /* AuthViewModel.swift in Sources */,
+				150734EE2C38861B002E7453 /* Database Service.swift in Sources */,
+				150734E42C388415002E7453 /* Appwrite.swift in Sources */,
+				1507350C2C389FF3002E7453 /* RootView.swift in Sources */,
+				150734FC2C389E21002E7453 /* PhoneNumberView.swift in Sources */,
+				150734E92C3885B6002E7453 /* UserSession.swift in Sources */,
+				150734EC2C3885E9002E7453 /* UserAccount.swift in Sources */,
 				150734D32C38801D002E7453 /* ContentView.swift in Sources */,
+				150735092C389FA0002E7453 /* BindingLimit.swift in Sources */,
+				150735072C389F79002E7453 /* ProfileSetup.swift in Sources */,
+				150734F22C388C7E002E7453 /* OnboardingView.swift in Sources */,
+				150735022C389EFE002E7453 /* SignUpWithEmail.swift in Sources */,
 				150734D12C38801D002E7453 /* Life_FellowshipApp.swift in Sources */,
+				150735002C389E6C002E7453 /* OTPVerificationView.swift in Sources */,
+				150734F72C389D9A002E7453 /* OtpModifier.swift in Sources */,
+				150735042C389F2D002E7453 /* SignInWithEmail.swift in Sources */,
+				150734E72C3884FC002E7453 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -344,6 +516,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		150734DE2C3883E8002E7453 /* XCRemoteSwiftPackageReference "sdk-for-apple" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/appwrite/sdk-for-apple";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		150734DF2C3883E8002E7453 /* Appwrite */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 150734DE2C3883E8002E7453 /* XCRemoteSwiftPackageReference "sdk-for-apple" */;
+			productName = Appwrite;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 150734C52C38801D002E7453 /* Project object */;
 }
